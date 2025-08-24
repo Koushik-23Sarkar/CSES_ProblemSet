@@ -15,8 +15,8 @@ int main(){
         cout<<it->first<<" "<<it->second<<endl;
     }
     //Traverse the Map
-    for(auto &pr:mp){      //N*O(logN)
-        cout<<it->first<<" "<<it->second<<endl;
+    for(auto pr:mp){      //N*O(logN)
+        cout<<pr->first<<" "<<pr->second<<endl;
     }
 
     // default value of INT in Map: 0
